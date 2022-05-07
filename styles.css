@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    height: 300vh;
     display: flex;
     flex-direction: column;
 }
@@ -119,6 +119,7 @@ button {
 .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 8px;
     text-align: center;
 }
@@ -136,4 +137,32 @@ button {
 
 .two-text {
     color: grey;
+}
+
+/* Third container */
+
+.third {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.random {
+    display: flex;
+    flex-direction: column;
+    max-width: 780px;
+}
+
+.quote {
+    font-family: light italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.citation {
+    margin-left: auto;
+    font-weight: bold;
 }
