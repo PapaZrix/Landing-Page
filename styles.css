@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 300vh;
+    height: 240vh;
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +29,7 @@ p {
 
 .top {
     background-color: #1F2937;
-    height: 350px;
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
@@ -38,8 +38,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px;
-    margin-bottom: 32px;
+    padding: 16px;
 }
 
 .left {
@@ -86,7 +85,8 @@ p {
 button {
     background-color: #3882F6;
     color: white;
-    width: 100px;
+    width: 110px;
+    font-weight: bold;
     padding: 8px;
     border-radius: 8px;
 }
@@ -94,9 +94,11 @@ button {
 /* Second container */
 
 .second {
-    height: 350px;
+    flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
@@ -142,7 +144,7 @@ button {
 /* Third container */
 
 .third {
-    height: 350px;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -157,7 +159,7 @@ button {
 }
 
 .quote {
-    font-family: light italic;
+    font-style: italic;
     font-size: 36px;
     color: #1F2937;
 }
@@ -165,4 +167,53 @@ button {
 .citation {
     margin-left: auto;
     font-weight: bold;
+}
+
+/* Fourth container */
+
+.fourth {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    height: 150px;
+    width: 900px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.call-text {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.call-sub {
+    color: #E5E7EB;
+}
+
+.button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
